@@ -57,7 +57,7 @@ namespace HawkExo1
 
         public static void PrintDogData(Dog dog)
         {
-            string dogData = String.Format("Le chat se nomme {0}, a {1} ans, et aime l'aliment suivant : {2}.", dog.name, dog.age,
+            string dogData = String.Format("Le chien se nomme {0}, a {1} ans, et aime l'aliment suivant : {2}.", dog.name, dog.age,
                 dog.favoriteFood);
             Console.WriteLine(dogData);
         }
